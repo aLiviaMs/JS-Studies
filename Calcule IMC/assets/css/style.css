@@ -28,10 +28,6 @@ body {
   border-radius: 10px;
 }
 
-#table {
-  display: inline-block;
-}
-
 form input, form label, form button {
   display: block;
   width: 100%;
