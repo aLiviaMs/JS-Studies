@@ -46,10 +46,11 @@ public class Questao2 {
 
         }
 
-        percentualHomens = ((float) homensAtendidos / quantidadeDePessoasAtendidas);
-        percentualMulheres = ((float) mulheresAtendidas / quantidadeDePessoasAtendidas);
-        percentualHomensMais60eMais95Kg = ((float) homensMais60eMais95Kg / quantidadeDePessoasAtendidas);
-        percentualMulheresEntre20e30Menos45Kg = ((float) mulheresEntre20e30Menos45Kg / quantidadeDePessoasAtendidas);
+        percentualHomens = ((float) homensAtendidos / quantidadeDePessoasAtendidas) * 100;
+        percentualMulheres = ((float) mulheresAtendidas / quantidadeDePessoasAtendidas) * 100;
+        percentualHomensMais60eMais95Kg = ((float) homensMais60eMais95Kg / quantidadeDePessoasAtendidas) * 100;
+        percentualMulheresEntre20e30Menos45Kg = ((float) mulheresEntre20e30Menos45Kg / quantidadeDePessoasAtendidas)
+                * 100;
 
         System.out.println("a) O número total de pessoas atendidas: " + quantidadeDePessoasAtendidas
                 + ". O número de homens atendidos: " + homensAtendidos + ". O número de mulheres atendidas: "
